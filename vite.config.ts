@@ -50,7 +50,7 @@ export default defineConfig({
   },
   build: {
     target: 'esnext',
-    outDir: 'dist',   // 👈 changed from build → dist
+    outDir: 'dist', // ✅ set back to "dist" for Vercel
   },
   server: {
     port: 3000,
